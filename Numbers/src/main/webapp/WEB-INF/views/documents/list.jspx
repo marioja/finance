@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_Document" items="${documents}" z="Hcltk0bxleOhRXGtDofzgCCIjtw=">
+        <table:table data="${documents}" id="l_net_mfjassociates_utilities_domain_Document" path="/documents" z="+jUo1bsJBUxzysWfqWihRSSdrdE=">
+            <table:column id="c_net_mfjassociates_utilities_domain_Document_inUse" property="inUse" z="UCuA/ax+PLIhmxjHVai/E/lKydU="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Document_prefix" property="prefix" z="sdeOJieaNo1hEE/2ahxnJBSkxb8="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Document_numerical" property="numerical" z="wEktPKGEQtxhahQ0C32FSCKKJMI="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Document_docType" property="docType" z="3Pg6qNWRI3tn9bb9z8oLhaDTeYM="/>
+            <table:column date="true" dateTimePattern="${document_created_date_format}" id="c_net_mfjassociates_utilities_domain_Document_created" property="created" z="3jwrK5OuFDd6r+GOaJZS8TrOmfM="/>
+            <table:column date="true" dateTimePattern="${document_updated_date_format}" id="c_net_mfjassociates_utilities_domain_Document_updated" property="updated" z="A2lVxRdAnGzMiAHvU5Il/+HbI9A="/>
+        </table:table>
+    </page:list>
+</div>

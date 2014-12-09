@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_Invoice" items="${invoices}" z="Q6b/QNVfpvhtLSn0g4kHa6wg5Ns=">
+        <table:table data="${invoices}" id="l_net_mfjassociates_utilities_domain_Invoice" path="/invoices" z="ndbULyxnkiRt8bZ6r1NUSaz2m/Q=">
+            <table:column date="true" dateTimePattern="${invoice_created_date_format}" id="c_net_mfjassociates_utilities_domain_Invoice_created" property="created" z="sqrI5+Zrn/6XoUPN0VRNSfmfIpM="/>
+            <table:column date="true" dateTimePattern="${invoice_updated_date_format}" id="c_net_mfjassociates_utilities_domain_Invoice_updated" property="updated" z="rZmU450liZwNzbylZt9tTrHssoU="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Invoice_days" property="days" z="wIIyHfSWreZGsR3rj195dvRdyKE="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Invoice_docNo" property="docNo" z="eswa6UEZ61ANpolsfv1XF7Qw61c="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Invoice_engagement" property="engagement" z="t8iZzAXTd/s9GwRDpdy4FpPo/kk="/>
+            <table:column date="true" dateTimePattern="${invoice_invdate_date_format}" id="c_net_mfjassociates_utilities_domain_Invoice_invDate" property="invDate" z="lW18GHNotnGZXW2YQSiKj1WoQrI="/>
+        </table:table>
+    </page:list>
+</div>

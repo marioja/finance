@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_Client" object="${client}" path="/clients" z="jzv8vk0Zds8ODA8lISgZojJK0J4=">
+        <field:display field="businessAddress" id="s_net_mfjassociates_utilities_domain_Client_businessAddress" object="${client}" z="KO5QCqu4Iz9BQaakx5NW0hv/DoE="/>
+        <field:display field="companyName" id="s_net_mfjassociates_utilities_domain_Client_companyName" object="${client}" z="yczd06fka5edElOqgLJPVTE+mEA="/>
+        <field:display date="true" dateTimePattern="${client_updated_date_format}" field="updated" id="s_net_mfjassociates_utilities_domain_Client_updated" object="${client}" z="N9lD5GgooqR+fcV4bVHmYNXvyjk="/>
+        <field:display field="mainTelephoneNumber" id="s_net_mfjassociates_utilities_domain_Client_mainTelephoneNumber" object="${client}" z="GtEkFFyBKuUI3JulPlt1pjGb3gE="/>
+        <field:display field="invoiceEmail" id="s_net_mfjassociates_utilities_domain_Client_invoiceEmail" object="${client}" z="KzfFAQgRArd3sieBiF9/fpnHcb4="/>
+    </page:show>
+</div>

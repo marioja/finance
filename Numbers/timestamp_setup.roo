@@ -1,0 +1,5 @@
+osgi start --url file:///c:/users/mario/documents/workspace-sts-3.6.1.RELEASE/Numbers-svn/com.rcaloras.roo.addon.timestamp-0.1.2.jar
+// this will add to the pom the repository and the dependency for the timestamp facility
+timestamp setup
+// this will add @RooTimestamp on all entities
+timestamp all

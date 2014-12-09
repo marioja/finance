@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_MyCompany" object="${mycompany}" path="/mycompanys" z="Tl8wcwvGrjX7dfFtEyAB6XFjDpY=">
+        <field:display field="businessAddress" id="s_net_mfjassociates_utilities_domain_MyCompany_businessAddress" object="${mycompany}" z="8W9f759gi5sfwj3dV6Cvq1WW1mA="/>
+        <field:display field="companyName" id="s_net_mfjassociates_utilities_domain_MyCompany_companyName" object="${mycompany}" z="PMPVVuUMA5Wi8W3ud7TSooOZxwc="/>
+        <field:display field="mainTelephoneNumber" id="s_net_mfjassociates_utilities_domain_MyCompany_mainTelephoneNumber" object="${mycompany}" z="yJ08zUwdUZkp+Ah8oisHttXHwfY="/>
+        <field:display date="true" dateTimePattern="${myCompany_updated_date_format}" field="updated" id="s_net_mfjassociates_utilities_domain_MyCompany_updated" object="${mycompany}" z="VE6HxwYOC2TZTJzTIujzwLp8oRA="/>
+        <field:display field="gstNumber" id="s_net_mfjassociates_utilities_domain_MyCompany_gstNumber" object="${mycompany}" z="5ilMQ093EJzoh4/6sH0Y3K4UJbU="/>
+    </page:show>
+</div>

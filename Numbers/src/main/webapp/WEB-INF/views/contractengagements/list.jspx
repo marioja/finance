@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_ContractEngagement" items="${contractengagements}" z="5UyfCkVUcfR2pJ5WElCtxoBjkKA=">
+        <table:table data="${contractengagements}" id="l_net_mfjassociates_utilities_domain_ContractEngagement" path="/contractengagements" z="yL53ieoMvoSWVsDUScEwv6SYeS8=">
+            <table:column id="c_net_mfjassociates_utilities_domain_ContractEngagement_rate" property="rate" z="SxsPQKtvJivwa2z6zn5agcpTg7U="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_ContractEngagement_client" property="client" z="V2p1tW4NshlSAbr8C1MkKZLR38A="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_ContractEngagement_employee" property="employee" z="gFOF8Hza40ZNOv8umSaEPHR5IQ4="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_ContractEngagement_myCompany" property="myCompany" z="A+PWyigISppZbfOHX/8RASiL8ZY="/>
+        </table:table>
+    </page:list>
+</div>

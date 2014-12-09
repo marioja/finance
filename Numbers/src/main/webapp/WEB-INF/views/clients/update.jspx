@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_net_mfjassociates_utilities_domain_Client" modelAttribute="client" path="/clients" versionField="Version" z="++Vw7iz9ffzvWP4j28rr+6ZYJtQ=">
+        <field:select field="businessAddress" id="c_net_mfjassociates_utilities_domain_Client_businessAddress" itemValue="id" items="${addresses}" path="/addresses" required="true" z="ZMCXMy9JfdTWInPRrrsJzk+UVf0="/>
+        <field:input field="companyName" id="c_net_mfjassociates_utilities_domain_Client_companyName" required="true" z="ow0JrPSD15zS7pABRWPKa1St7AA="/>
+        <field:datetime dateTimePattern="${client_updated_date_format}" field="updated" id="c_net_mfjassociates_utilities_domain_Client_updated" z="ZSGxRLT9++Cn/EnERcDz2g69qF8="/>
+        <field:input field="mainTelephoneNumber" id="c_net_mfjassociates_utilities_domain_Client_mainTelephoneNumber" required="true" z="74Z2xcEVASw64PY6hjlf/AahLxM="/>
+        <field:input field="invoiceEmail" id="c_net_mfjassociates_utilities_domain_Client_invoiceEmail" required="true" z="iOa/qOn5xs4qJLRrwiD97ctlQE4="/>
+    </form:update>
+</div>

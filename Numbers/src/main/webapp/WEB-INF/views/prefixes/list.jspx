@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_Prefix" items="${prefixes}" z="pNgaLULjGhnu+cSpmqElShxeEYE=">
+        <table:table data="${prefixes}" id="l_net_mfjassociates_utilities_domain_Prefix" path="/prefixes" z="cAPTyvulFUeJh31G2h73pm5rF4s=">
+            <table:column id="c_net_mfjassociates_utilities_domain_Prefix_inUse" property="inUse" z="OSA1CpDVLSf8nobauWyzOTfGxw0="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Prefix_code" property="code" z="isbZd06ybuulrRxRXabIjaXYw7Y="/>
+            <table:column date="true" dateTimePattern="${prefix_created_date_format}" id="c_net_mfjassociates_utilities_domain_Prefix_created" property="created" z="GxgawVfPjB6FGNOyrmXVCm+WFEQ="/>
+            <table:column date="true" dateTimePattern="${prefix_updated_date_format}" id="c_net_mfjassociates_utilities_domain_Prefix_updated" property="updated" z="GpgsK9SiBMSx9PXktWnFXb/ePHI="/>
+        </table:table>
+    </page:list>
+</div>

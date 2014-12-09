@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_Address" object="${address}" path="/addresses" z="NYuAfKEd28V2V983Z847vDr3YN4=">
+        <field:display date="true" dateTimePattern="${address_updated_date_format}" field="updated" id="s_net_mfjassociates_utilities_domain_Address_updated" object="${address}" z="g5Ofi+tAUP/OtIqpCd7NE7qrUjs="/>
+        <field:display field="line1" id="s_net_mfjassociates_utilities_domain_Address_line1" object="${address}" z="TBAAkexJa/E7Mhfz3sOr3ZQ3sag="/>
+        <field:display field="line2" id="s_net_mfjassociates_utilities_domain_Address_line2" object="${address}" z="C31aE3Vhye3oww3U6XC1alFPFMU="/>
+        <field:display field="city" id="s_net_mfjassociates_utilities_domain_Address_city" object="${address}" z="+sJh/r+jRviD0MfMy+/7R/IMoE8="/>
+        <field:display field="province" id="s_net_mfjassociates_utilities_domain_Address_province" object="${address}" z="B0h9tVY1x0cPePApL4SpXobIwMc="/>
+        <field:display field="postalCode" id="s_net_mfjassociates_utilities_domain_Address_postalCode" object="${address}" z="4fFWjF7qGMmtfAsKM+LWmRw4xsU="/>
+    </page:show>
+</div>

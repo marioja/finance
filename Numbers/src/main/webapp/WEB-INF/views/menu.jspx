@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
+            <menu:item id="i_controller__docsindex_id" messageCode="global_generic" url="/docs/index" z="BlQPQIWdcZuDJyTaVLh7ASG+duw="/>
+        </menu:category>
+        <menu:category id="c_document" z="IwaW5r7KHuYYhv8LICTHRKgUWao=">
+            <menu:item id="i_document_new" messageCode="global_menu_new" url="/documents?form" z="bv1eg7qAwaBE1ATd78QiQm2M3ZE="/>
+            <menu:item id="i_document_list" messageCode="global_menu_list" url="/documents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="p196XK4gvGXOnIrUwDqNS/p7fzE="/>
+        </menu:category>
+        <menu:category id="c_prefix" z="UoY6ZmE5dw0GJWXxFuRnP4Ci2Pw=">
+            <menu:item id="i_prefix_new" messageCode="global_menu_new" url="/prefixes?form" z="Mn3ToVTR3O12jAFfx2gTHcz2Qt4="/>
+            <menu:item id="i_prefix_list" messageCode="global_menu_list" url="/prefixes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="+6s87v/SHlrT3dEezV1gePtIinA="/>
+        </menu:category>
+        <menu:category id="c_invoice" z="J8t31gESmLmp6i5o6ds0/j0AMNA=">
+            <menu:item id="i_invoice_new" messageCode="global_menu_new" url="/invoices?form" z="QqwPSYJNNoLrSbh5ekf/V1j0eU8="/>
+            <menu:item id="i_invoice_list" messageCode="global_menu_list" url="/invoices?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fGp1lAWegbSUAHpxuhrzXY9RQGI="/>
+        </menu:category>
+        <menu:category id="c_client" z="TjeLu8x0oS98tSiRzdPNDOc8U+c=">
+            <menu:item id="i_client_new" messageCode="global_menu_new" url="/clients?form" z="0rEWYB2Yq6qokJif3zv05zcXpXk="/>
+            <menu:item id="i_client_list" messageCode="global_menu_list" url="/clients?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/DxsyzfFyvp93UEW0WcXvtjs4zo="/>
+        </menu:category>
+        <menu:category id="c_mycompany" z="ZfMo7W6eo27LNLLVq2eIDf8eOh8=">
+            <menu:item id="i_mycompany_new" messageCode="global_menu_new" url="/mycompanys?form" z="MCj6n7A1Jb4R0J/Ls9ALHz63an0="/>
+            <menu:item id="i_mycompany_list" messageCode="global_menu_list" url="/mycompanys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kWKyyXZbuC0FgOmjZFJuUSjKT5Y="/>
+        </menu:category>
+        <menu:category id="c_address" z="my5R1aInTRohGzWz9TL4j8LX/vE=">
+            <menu:item id="i_address_new" messageCode="global_menu_new" url="/addresses?form" z="vg+UZ0neKcizSzKiVzXeI3oY1BA="/>
+            <menu:item id="i_address_list" messageCode="global_menu_list" url="/addresses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="u8ooCATbc0N+VHl1spo80t0zy+k="/>
+        </menu:category>
+        <menu:category id="c_contractengagement" z="94ELb0rMsqKOBQxOomDu0dJU0Uw=">
+            <menu:item id="i_contractengagement_new" messageCode="global_menu_new" url="/contractengagements?form" z="zswIf8eI3eCQsopPqGmHk6tYhVk="/>
+            <menu:item id="i_contractengagement_list" messageCode="global_menu_list" url="/contractengagements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="OG3L4kxNU5p+7FdFQXk4vJs7EHY="/>
+        </menu:category>
+        <menu:category id="c_employee" z="sxLyQbJ/qSw9Reoi1NHvJhkZ/rU=">
+            <menu:item id="i_employee_new" messageCode="global_menu_new" url="/employees?form" z="+S/pgOAdANt9JPGnS20kM8qTu00="/>
+            <menu:item id="i_employee_list" messageCode="global_menu_list" url="/employees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IfTXfF5mBLDCW+DUkfuN3Wgvias="/>
+        </menu:category>
+    </menu:menu>
+</div>

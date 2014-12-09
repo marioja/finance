@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_ContractEngagement" object="${contractengagement}" path="/contractengagements" z="QMtEAEj7bVSO+NxIPfNYKUH4V0k=">
+        <field:display field="rate" id="s_net_mfjassociates_utilities_domain_ContractEngagement_rate" object="${contractengagement}" z="nEbyOsPEbVZ2rkjsOHcqCGc5A/8="/>
+        <field:display field="client" id="s_net_mfjassociates_utilities_domain_ContractEngagement_client" object="${contractengagement}" z="6dqF1xmyMRvd7mTwOfTY9bz2g18="/>
+        <field:display field="employee" id="s_net_mfjassociates_utilities_domain_ContractEngagement_employee" object="${contractengagement}" z="vmL9Hp3HowgbMvr4ENrGBN3suNs="/>
+        <field:display field="myCompany" id="s_net_mfjassociates_utilities_domain_ContractEngagement_myCompany" object="${contractengagement}" z="dWxsYuDRmrn1MKBb61dMu1hsvuw="/>
+    </page:show>
+</div>

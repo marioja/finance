@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_Invoice" object="${invoice}" path="/invoices" z="xsy8o/fFIBGoR0pjgjI73z4jGbk=">
+        <field:display date="true" dateTimePattern="${invoice_updated_date_format}" field="updated" id="s_net_mfjassociates_utilities_domain_Invoice_updated" object="${invoice}" z="F+Wqi4uexAn7hZTfy1bRaRItK0o="/>
+        <field:display field="days" id="s_net_mfjassociates_utilities_domain_Invoice_days" object="${invoice}" z="4oj/iA7lNgG8E3TGhOBHhPFmSBE="/>
+        <field:display field="docNo" id="s_net_mfjassociates_utilities_domain_Invoice_docNo" object="${invoice}" z="UVqVrw3fD/L8McG/vRHK7BWD+zo="/>
+        <field:display field="engagement" id="s_net_mfjassociates_utilities_domain_Invoice_engagement" object="${invoice}" z="CV3IPU3NaNhP7ZVXFW1hoHUr8ck="/>
+        <field:display field="handle" id="s_net_mfjassociates_utilities_domain_Invoice_handle" object="${invoice}" z="ZrbtkqZBrg5G7IXWp+0Tf3XC1pM="/>
+        <field:display date="true" dateTimePattern="${invoice_invdate_date_format}" field="invDate" id="s_net_mfjassociates_utilities_domain_Invoice_invDate" object="${invoice}" z="91A5xVP9C1pNL9NiXP2qcJYShbI="/>
+    </page:show>
+</div>

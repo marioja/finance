@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_net_mfjassociates_utilities_domain_Document" object="${document}" path="/documents" z="fqQ9k18HTRqlrFefIrU8mPghYYU=">
+        <field:display field="inUse" id="s_net_mfjassociates_utilities_domain_Document_inUse" object="${document}" z="CSX4na0QnakzOJ6P5+Q0cRFJ2zM="/>
+        <field:display field="prefix" id="s_net_mfjassociates_utilities_domain_Document_prefix" object="${document}" z="Y8lLPn7D5D7TjsuMME65wAZQTTM="/>
+        <field:display field="numerical" id="s_net_mfjassociates_utilities_domain_Document_numerical" object="${document}" z="AK4wRIXDGltBC6c0Vc2+sgyjXL4="/>
+        <field:display field="docType" id="s_net_mfjassociates_utilities_domain_Document_docType" object="${document}" z="rYiUzvA0CNr7biSIm26vLj9W9U4="/>
+        <field:display field="description" id="s_net_mfjassociates_utilities_domain_Document_description" object="${document}" z="MuPkVWOzgDq0xGakAymQgSxzroo="/>
+        <field:display date="true" dateTimePattern="${document_updated_date_format}" field="updated" id="s_net_mfjassociates_utilities_domain_Document_updated" object="${document}" z="5q61acsd+m7VBi5FNRR8JnzgH58="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_Client" items="${clients}" z="VdLxPCgsZiokhKJUibT2ygKH05U=">
+        <table:table data="${clients}" id="l_net_mfjassociates_utilities_domain_Client" path="/clients" z="xPlGTjEjVFbIBoyyac2KQrnA3YQ=">
+            <table:column id="c_net_mfjassociates_utilities_domain_Client_businessAddress" property="businessAddress" z="MVNYCqxSlRZRQpCFGUgJ5UsuZDY="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Client_companyName" property="companyName" z="1S1uHviK29hZbNMSwwSUU5F/F30="/>
+            <table:column date="true" dateTimePattern="${client_created_date_format}" id="c_net_mfjassociates_utilities_domain_Client_created" property="created" z="cR8cMYVbNgLsxnmW3KoEvhkn/6s="/>
+            <table:column date="true" dateTimePattern="${client_updated_date_format}" id="c_net_mfjassociates_utilities_domain_Client_updated" property="updated" z="G+uvVVZHIkv0rWzRvzyfyUx9+zE="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Client_mainTelephoneNumber" property="mainTelephoneNumber" z="CnrDkiTh18ya9UZLBZMvVfEjyGU="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Client_invoiceEmail" property="invoiceEmail" z="EgLil14SWiFbzydc5dbAyjkIK2k="/>
+        </table:table>
+    </page:list>
+</div>

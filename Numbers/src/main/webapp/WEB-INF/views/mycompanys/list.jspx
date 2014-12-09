@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_MyCompany" items="${mycompanys}" z="07blGyJay6CqEhwH47vDWfcKFLs=">
+        <table:table data="${mycompanys}" id="l_net_mfjassociates_utilities_domain_MyCompany" path="/mycompanys" z="EjK4RfbIrSt3E7b3e+TCimTheXg=">
+            <table:column id="c_net_mfjassociates_utilities_domain_MyCompany_businessAddress" property="businessAddress" z="WdSovRxjiFWsRci6z57cYGeAKdk="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_MyCompany_companyName" property="companyName" z="+sU2CM7TGFoQ1hDSJrbaS0p8pMA="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_MyCompany_mainTelephoneNumber" property="mainTelephoneNumber" z="b2QsKAT/fr2y49uxRFPUG01deGM="/>
+            <table:column date="true" dateTimePattern="${myCompany_created_date_format}" id="c_net_mfjassociates_utilities_domain_MyCompany_created" property="created" z="fBrNa5N8zdy1DZcXoph4q9GG6lM="/>
+            <table:column date="true" dateTimePattern="${myCompany_updated_date_format}" id="c_net_mfjassociates_utilities_domain_MyCompany_updated" property="updated" z="j/FMlSnnCQuucdLmG4kvppNoes0="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_MyCompany_gstNumber" property="gstNumber" z="6BfsgIIIgFwY2S9IhTXF+P/slZs="/>
+        </table:table>
+    </page:list>
+</div>

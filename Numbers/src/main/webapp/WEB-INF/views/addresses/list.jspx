@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_net_mfjassociates_utilities_domain_Address" items="${addresses}" z="no8PkA2uMLIODEyaFELbrkRAEX4=">
+        <table:table data="${addresses}" id="l_net_mfjassociates_utilities_domain_Address" path="/addresses" z="nA4SwAevsvSdLWlm9EqeyNnPnJg=">
+            <table:column date="true" dateTimePattern="${address_created_date_format}" id="c_net_mfjassociates_utilities_domain_Address_created" property="created" z="xBLEeke4R9Au2eN8cBeJj2Exhtk="/>
+            <table:column date="true" dateTimePattern="${address_updated_date_format}" id="c_net_mfjassociates_utilities_domain_Address_updated" property="updated" z="4XZtmSuoSu8NjHO29KxKmhKH34g="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Address_line1" property="line1" z="II/eOkGlCwCipwFd31RhVxFxF6Q="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Address_line2" property="line2" z="zKD8pd7B770Ce4VlFDsCHGXfYLI="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Address_city" property="city" z="pJHc+P8PcY4lsmSa1WKk/SZFB8I="/>
+            <table:column id="c_net_mfjassociates_utilities_domain_Address_province" property="province" z="8umJZzHKvr1eyNp6Geg3dnNE/hE="/>
+        </table:table>
+    </page:list>
+</div>

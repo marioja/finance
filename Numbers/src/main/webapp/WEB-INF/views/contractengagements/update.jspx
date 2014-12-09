@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_net_mfjassociates_utilities_domain_ContractEngagement" modelAttribute="contractEngagement" path="/contractengagements" versionField="Version" z="VbF1bBuj3kEW2ifvKd+klDs3HHU=">
+        <field:input decimalMax="10000.00" decimalMin="1.00" field="rate" id="c_net_mfjassociates_utilities_domain_ContractEngagement_rate" required="true" validationMessageCode="field_invalid_number" z="cJEozHVPTMwphBx7NRpfl5KqEAE="/>
+        <field:select field="client" id="c_net_mfjassociates_utilities_domain_ContractEngagement_client" itemValue="id" items="${clients}" path="/clients" required="true" z="h1ChSe5PkhJtaPn3KBAU5NHf4JI="/>
+        <field:select field="employee" id="c_net_mfjassociates_utilities_domain_ContractEngagement_employee" itemValue="id" items="${employees}" path="/employees" required="true" z="0a7+gQp+5ebssgH7vBP3ZrSJ6Gk="/>
+        <field:select field="myCompany" id="c_net_mfjassociates_utilities_domain_ContractEngagement_myCompany" itemValue="id" items="${mycompanys}" path="/mycompanys" required="true" z="kcY73E0ejrxV9vEI5V4c1e/WiH8="/>
+    </form:update>
+</div>
